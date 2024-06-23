@@ -79,7 +79,7 @@ public class BeforeAfter {
         System.out.println("Test cases executed3...................");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1,groups ="Regression")
     public void testRun4()
     {
 
