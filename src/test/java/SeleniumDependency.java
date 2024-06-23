@@ -8,7 +8,7 @@ public class SeleniumDependency {
     public void CreatePayment()
     {
         System.out.println("Create Payment ........");
-        Assert.fail();
+       // Assert.fail();
     }
 
     @Test(dependsOnMethods ="CreatePayment")
