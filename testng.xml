@@ -9,6 +9,7 @@
         <class name="SeleniumDependency"/>
         <class name="SeleniumTestGrouping"/>
         <class name="SeleniumTestRun"/>
+        <class name="SeleniumGitTest"/>
     </classes>
 
 
