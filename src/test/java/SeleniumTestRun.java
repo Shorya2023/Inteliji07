@@ -2,7 +2,7 @@ import org.testng.annotations.Test;
 
 public class SeleniumTestRun {
 
-    @Test (priority = 0)
+    @Test (priority = 0,groups ="sanity")
     public void run()
     {
 

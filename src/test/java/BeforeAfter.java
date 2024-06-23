@@ -89,7 +89,7 @@ public class BeforeAfter {
 
 
 
-    @Test (priority = 5)
+    @Test (priority = 5,groups ="Regression")
     public void zteardown()
     {
 

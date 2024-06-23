@@ -6,7 +6,7 @@ import static org.testng.Assert.assertEquals;
 public class SeleniumTest {
 
 
-    @Test(priority=0)
+    @Test(priority=0,groups ="sanity")
     public void Login()
     {
 
@@ -14,14 +14,14 @@ public class SeleniumTest {
         //Assert.fail();
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4,groups ="Regression")
     public void testRun1()
     {
 
         System.out.println("Test cases executed.1..................");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2,groups ="Regression")
     public void testRun2()
     {
 
