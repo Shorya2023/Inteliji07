@@ -10,7 +10,8 @@
         <class name="SeleniumTestGrouping"/>
         <class name="SeleniumTestRun"/>
         <class name="SeleniumGitTest"/>
-        <class name="SeleniumBranch01TC"></class>
+        <class name="SeleniumBranch01TC"/>
+        <class name="SeleniumRevertTestCases"/>
     </classes>
 
 
